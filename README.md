@@ -91,11 +91,34 @@ You have 3 options here, so choose the one that suits you:
   ```bash
   sudo apt install ros-foxy-ros-base python3-argcomplete
   ```
-  -Development tools: Compilers and other tools to build ROS packages
+- Development tools: Compilers and other tools to build ROS packages
   ```bash
   sudo apt install ros-dev-tools
   ```
+  # Environment setup
+  
+Set up your environment by sourcing the following file
 
+```bash
+source /opt/ros/foxy/setup.bash
+```
+# Testing
+In one terminal, source the setup file and then run a C++ talker:
+```bash
+source /opt/ros/foxy/setup.bash
+ros2 run demo_nodes_cpp talker
+```
+In another terminal source the setup file and then run a Python listener:
+
+```bash
+source /opt/ros/foxy/setup.bash
+ros2 run demo_nodes_py listener
+```
+
+You should see the talker saying that it’s Publishing 'Hello world 'and the listener saying I heard 'Hello world'
+
+ 
+![Screenshot 2024-07-04 152001](https://github.com/iSarh/install_ROSFoxy/assets/63901303/2b7e414f-c352-4a7b-86cd-52dc48e4be30)
 
 
 
