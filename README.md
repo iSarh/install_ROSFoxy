@@ -66,7 +66,8 @@ Update your apt repository caches after setting up the repositories.
 sudo apt update
 ```
 > [!NOTE]
-> E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution) LibreOffice
+> You may face an error > E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution) LibreOffice
+> To fix it run:
 > ```bash
 > sudo apt -o Dpkg::Options::="--force-overwrite" --fix-broken install
 > ```
