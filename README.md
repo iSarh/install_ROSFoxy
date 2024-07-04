@@ -68,8 +68,8 @@ sudo apt update
 > [!NOTE]
 > E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution) LibreOffice
 > ```bash
-sudo apt -o Dpkg::Options::="--force-overwrite" --fix-broken install
-```
+> sudo apt -o Dpkg::Options::="--force-overwrite" --fix-broken install
+> ```
 
 
 
