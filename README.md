@@ -115,10 +115,10 @@ source /opt/ros/foxy/setup.bash
 ros2 run demo_nodes_py listener
 ```
 
-You should see the talker saying that it’s Publishing 'Hello world 'and the listener saying I heard 'Hello world'
+You should see the talker saying that it’s Publishing 'Hello World 'and the listener saying I heard 'Hello World'
 
- 
-![Screenshot 2024-07-04 152001](https://github.com/iSarh/install_ROSFoxy/assets/63901303/2b7e414f-c352-4a7b-86cd-52dc48e4be30)
+
+![Screenshot 2024-07-04 152641](https://github.com/iSarh/install_ROSFoxy/assets/63901303/e76a86db-ed47-4074-965c-e89da0e6f4ff)
 
 
 
