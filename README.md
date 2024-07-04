@@ -95,7 +95,7 @@ You have 3 options here, so choose the one that suits you:
   ```bash
   sudo apt install ros-dev-tools
   ```
-  # Environment setup
+# Environment setup
   
 Set up your environment by sourcing the following file
 
