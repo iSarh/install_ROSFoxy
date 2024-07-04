@@ -7,9 +7,12 @@ https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html
 Before starting to install ROS, you need to :
 
 **download VirtualBox:** https://www.virtualbox.org/wiki/Downloads
+
 **download Ubuntu 24.04 ( Install it on Virtual Box ):** https://ubuntu.com/download/desktop
+
 if VirtualBox and Ubuntu are not familiar to you, here is some help to do that:
 https://youtu.be/x5MhydijWmc?feature=shared
+
 ## install ROS Foxy
 
 First of all, you need to set the locale so you can simply type ```locale``` on the terminal.
@@ -67,6 +70,7 @@ sudo apt update
 ```
 > [!NOTE]
 > You may face an error > E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution) LibreOffice
+> 
 > To fix it run:
 > ```bash
 > sudo apt -o Dpkg::Options::="--force-overwrite" --fix-broken install
