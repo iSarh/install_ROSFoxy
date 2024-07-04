@@ -77,6 +77,25 @@ sudo apt update
 > sudo apt -o Dpkg::Options::="--force-overwrite" --fix-broken install
 > ```
 
+Now install the packages.
+
+You have 3 options here, so choose the one that suits you:
+
+- Desktop Install (Recommended): ROS, RViz, demos, tutorials.
+  
+  ```bash
+  sudo apt install ros-foxy-desktop python3-argcomplete
+  ```
+- ROS-Base Install (Bare Bones): Communication libraries, message packages, command line tools. No GUI tools.
+  
+  ```bash
+  sudo apt install ros-foxy-ros-base python3-argcomplete
+  ```
+  -Development tools: Compilers and other tools to build ROS packages
+  ```bash
+  sudo apt install ros-dev-tools
+  ```
+
 
 
 
